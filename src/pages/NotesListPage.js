@@ -7,9 +7,9 @@ const NotesListPage = () => {
             <div>
                 <div className="notes-list">
                     {
-                    notes.map((note => (
-                            <p>{note.body}</p>
-                    )))
+                    notes.map((note, index) => (
+                            <ListItem key={index} note={note}/>
+                    ))
                     }
                 </div>
             </div>
