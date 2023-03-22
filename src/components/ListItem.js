@@ -1,11 +1,11 @@
 import React from "react";
 
-const Body = () => {
+const ListItem = () => {
     return(
             <div>
-                <h3>BODY IS HERE</h3>
+                ListItem
             </div>
     )
 }
 
-export default Body;
+export default ListItem;
